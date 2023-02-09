@@ -18,8 +18,11 @@
 /*---------------------------------------------------*/
 /*	01)  BASE
 /*---------------------------------------------------*/
-
-
+img.dark {
+    max-width: 80%;
+}
+.topbar.animate, .topbar_single.animate {
+	z-index: 1000!important;}
 @media (max-width:599px){
 	.hero .background .rightpart .image {
 		position: absolute;
