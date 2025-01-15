@@ -1167,6 +1167,10 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 /*---------------------------------------------------*/
 /*	12)  COPYRIGHT
 /*---------------------------------------------------*/
+.copyright_contact {
+
+}
+
 
 .copyright{
 	width: 100%;
@@ -1176,54 +1180,65 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	background-color: #000;
 	padding: 90px 0px 60px 0px;
 }
-.copyright .copyright_inner{
+/* .copyright_contact .copyright_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
+} */
+.copyright_contact .copyright_inner{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	clear: both;
+	float: left;
 }
-.copyright .copyright_inner > ul{
+.copyright_contact .copyright_inner > ul{
 	margin: 0px 0px 0px -30px;
 	list-style-type: none;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center
 }
-.copyright .copyright_inner > ul > li{
+.copyright_contact .copyright_inner > ul > li{
 	margin: 0px 0px 30px 0px;
-	width: 25%;
+	width: 100%;
 	float: left;
-	padding-left: 30px;
+	/* padding-left: 30px; */
+	text-align: center;
 }
-.copyright .copyright_inner > ul > li span{
+.copyright_contact .copyright_inner > ul > li span{
 	display: block;
-	color: #fff;
+	color: #000;
 	font-family: "Montserrat";
 	font-weight: 500;
 }
-.copyright .copyright_inner > ul > li span a{
+.copyright_contact .copyright_inner > ul > li span a{
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
-.copyright .copyright_inner .social ul{
+.copyright_contact .copyright_inner .social ul{
 	margin: 0px;
 	list-style-type: none;
 	position: relative;
+	display: flex;
 	top: 4px;
 }
-.copyright .copyright_inner .social ul li{
+.copyright_contact.copyright_inner .social ul li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.copyright .copyright_inner .social ul li:last-child{margin-right: 0px;}
-.copyright .copyright_inner .social ul li a{
+.copyright_contact .copyright_inner .social ul li:last-child{margin-right: 0px;}
+.copyright_contact .copyright_inner .social ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
 }
-.copyright .copyright_inner .social ul li a .first{
+.copyright_contact .copyright_inner .social ul li a .first{
 	position: absolute;
 	transform: translateY(100%);
 	
@@ -1233,7 +1248,7 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.copyright .copyright_inner .social ul li a .second{
+.copyright_contact .copyright_inner .social ul li a .second{
 	position: relative;
 	display: block;
 	
@@ -1243,10 +1258,10 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.copyright .copyright_inner .social ul li a:hover .first{
+.copyright_contact .copyright_inner .social ul li a:hover .first{
 	transform: translateY(0);
 }
-.copyright .copyright_inner .social ul li a:hover .second{
+.copyright_contact .copyright_inner .social ul li a:hover .second{
 	transform: translateY(-100%);
 }
 .portfolio_list{
