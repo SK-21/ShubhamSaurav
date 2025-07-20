@@ -571,10 +571,10 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 193px;
+/* 	margin-bottom: 193px; */
 	padding-top: 230px;
-	padding-bottom: 120px;
-	background-color: #f8f9fa;
+/* 	padding-bottom: 120px;
+	background-color: #fff; */
 }
 .about .about_inner{
 	width: 100%;
