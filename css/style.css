@@ -1090,8 +1090,8 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	clear: both;
 	float: left;
 	position: relative;
-	margin-bottom: 200px;
-	padding-top: 255px;
+	margin-bottom: 50px;
+	padding-top: 100px;
 }
 .contact .contact_inner{
 	width: 100%;
@@ -1224,6 +1224,7 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	list-style-type: none;
 	position: relative;
 	display: flex;
+	justify-content:center!important
 	top: 4px;
 }
 .copyright_contact.copyright_inner .social ul li{
