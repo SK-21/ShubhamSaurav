@@ -1224,7 +1224,7 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	list-style-type: none;
 	position: relative;
 	display: flex;
-	justify-content:center!important
+	justify-content: center;
 	top: 4px;
 }
 .copyright_contact.copyright_inner .social ul li{
@@ -2515,7 +2515,9 @@ body.dark .settings .cursor li .svg,
 	.gallery{padding: 90px 0px 100px 0px;margin-bottom: 100px;}
 
 	.news{padding-top: 90px;padding-bottom: 50px;}
-	.contact{padding-top: 95px;margin-bottom: 105px;}
+	.contact{padding-top: 95px;
+/* margin-bottom: 105px; */
+}
 	.contact .desc{padding-top: 35px;max-width: 100%;}
 	.copyright{padding: 70px 0px 40px 0px;}
 	.copyright .copyright_inner > ul > li{margin-bottom: 15px;}
