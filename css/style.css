@@ -2479,6 +2479,9 @@ body.dark .settings .cursor li .svg,
 }
 
 @media (max-width: 1040px) {
+	#news .title h3 {
+    margin-bottom: 30px !important;
+}
 	.topbar{display: none;}
 	.topbar_single{display: none;}
 	.mobile_menu{display: block;}
@@ -2508,7 +2511,7 @@ body.dark .settings .cursor li .svg,
 	.copyright .copyright_inner > ul{display: block;margin: 0px;}
 	.about .name h3{font-size: 30px;}
 	.section-title .title h3{font-size: 30px;}
-	.about{padding-top: 180px;margin-bottom: 93px;}
+	.about{padding-top: 60px;margin-bottom: 93px;}
 	.gallery{padding: 90px 0px 100px 0px;margin-bottom: 100px;}
 
 	.news{padding-top: 90px;padding-bottom: 50px;}
