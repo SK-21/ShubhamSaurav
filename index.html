@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Shubham Saurav is the founder of Infina AI, an AI-native search engine for conversation data">
+<meta name="description" content="Shubham Saurav is the founder of Infina, the world's first hands-free voice interface for Mac.">
 <meta name="author" content="Shubham Saurav">
 
 
@@ -129,7 +128,7 @@
     align-items: center;
     background: white; /* Optional: Add background to highlight logos */
     border-radius: 8px; /* Optional: Add rounded corners for aesthetics */
-    overflow: hidden; /* Ensure logos don’t exceed boundaries */
+    overflow: hidden; /* Ensure logos don't exceed boundaries */
   }
 
   /* Logo Styling */
@@ -145,6 +144,23 @@
   .client-logo:hover {
     filter: grayscale(0%); /* Remove grayscale on hover */
     -webkit-filter: grayscale(0%); /* Remove grayscale for Webkit browsers */
+  }
+
+  /* MOBILE FIX: shrink the photo (aspect ratio preserved) and tighten the
+     spacing above the bullets, so the first two bullets peek above the fold. */
+  @media (max-width: 768px) {
+    .about { padding-top: 30px; }
+    .about .about_inner .left { margin-bottom: 22px !important; }
+    .about .about_inner .left img.thumbnail {
+      max-height: 30vh;
+      height: auto !important;
+      width: auto !important;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    .about .name h3 { padding: 10px 0 !important; }
+    .about .name { margin-bottom: 18px; }
   }
 </style>
 
@@ -211,7 +227,7 @@
 					</a>
 				</div>
 				<div class="menu">
-				<!--	<div class="links">
+					<div class="links">
 						<ul>
 							<li>
 								<a href="#home">
@@ -231,14 +247,6 @@
 									<span class="second">Gallery</span>	
 								</a>
 							</li>
-						<!--	<li>
-								<a href="#news">
-									<span class="first">News</span>
-									<span class="second">News</span>	
-								</a>
-					
-							</li>--
-							
 							<li>
 								<a href="#contact">
 									<span class="first">Contact</span>
@@ -246,7 +254,7 @@
 								</a>
 							</li>
 						</ul>
-					</div>-->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -308,7 +316,7 @@
 						<span>Internet entrepreneur</span>
 					</div>
 				</div>
-				<div class="down" data-skin="dark" data-position="">  <!-- Skin: "", dark -->  <!-- Position: left, center, right -->
+				<div class="down" data-skin="dark" data-position="">
 					<!--<div class="line_wrapper">
 						<div class="line"></div>
 					</div>
@@ -330,112 +338,24 @@
 						<h3>Shubham Saurav<span class="bg">About</span></h3>
 
 						<div style="height: 40px;"></div>
-
-						
-			<!--		</div>
-					<div class="text">
-						<p><b>Shubham Saurav</b> is an Internet entrepreneur and Founder of SBM Group International, a global media holding company. Shubham started his entrepreneurship career at the age of 15. During his first year in college, he founded an internet company, which later became a successful media venture. Since then SBM Group International has worked with several billion-dollar companies.</p>
-						<p></p>
 					</div>
--->
 
 					<div class="text">
-<!--  <b>Shubham Saurav</b> -->
-
-						
-  <ul>
-    <li>Founder of <strong><a href="https://infina.so" target="_blank" style="text-decoration: underline; color: black;">Infina AI</a></strong>, an AI-native search engine that helps teams  search, summarize, and collaborate on org-wide conversations.</li>
-
-<!-- <li>Built <strong><a href="https://barley.so" target="_blank" style="text-decoration: underline; color: black;">Barley AI</a></strong>, a content intelligence platform that turns documents, audio, and video into an interface for natural language interaction.</li> -->
-<!--	  Built <strong><a href="https://barley.so" target="_blank" style="text-decoration: underline; color: black;">Barley AI</a></strong>, an AI microlearning platform used by people in 30+ countries that turns documents, audio, and video into an interface for natural language interaction. -->
-<!--	  <li>Built <strong><a href="https://barley.so" target="_blank" style="text-decoration: underline; color: black;">Barley AI</a></strong>, an AI microlearning platform helping users across 30+ countries to interact with any learning content (documents, audio, video) through natural-language conversation.</li> -->
-
-
-    <li>Founded <strong><a href="https://sbmgroupinternational.com" target="_blank" style="text-decoration: underline; color: black;">SBM Group International</a></strong>, an internet company launched from my college dorm that later worked with some of world’s leading AI and blockchain ventures across the US, Middle East, and Asia — including several valued over $1B.
-
-
-    </li>
-
-<!--    <li>⁠Made my first <strong>100k USD </strong>(1 crore INR) before graduating from college with my first venture, entirely bootstrapped.</li> -->
-
-    <li>Worked with the private office of <strong>UAE Royal family</strong> during undergrad.</li>
-
- <!--   <li>Got selected to play for my zone of over <strong>3 million</strong> people at the U19 <strong>CK Nayudu Trophy</strong>, the premier cricket tournament in India.</li> -->
-
-	  <li> ⁠Played in the U19 State <strong>CK Nayudu Trophy</strong>, the premier cricket league in India, representing a zone of over 3 million<strong></strong> people.</li>
-
- <li>Host of <strong><a href="https://instagram.com/rawconv" target="_blank" style="text-decoration: underline; color: black;">Raw Conversations</a></strong>, a podcast with 3M+ views<strong></strong> in 5 ep.</li> 
-
-  </ul>
-</div>
-
-
-					
-			<!-- 		<div class="btn" data-position="left">  <!-- Position: left, center, right -->
-				<!-- 		<a href="#contact" >
-							<span>Contact Me</span>
-						</a>
-					</div> -->
+						<ul>
+							<li>Founder of <strong><a href="https://infina.so" target="_blank" style="text-decoration: underline; color: black;">Infina</a></strong>, the world's first hands-free voice interface for Mac.</li>
+							<li>Founded <strong><a href="https://sbmgroupinternational.com" target="_blank" style="text-decoration: underline; color: black;">SBM Group International</a></strong> from my college dorm; it went on to work with multiple billion-dollar AI and blockchain ventures across the US.</li>
+							<li>Built <strong>Barley AI</strong>, an AI learning platform used by 10,000+ students across 30+ countries.</li>
+							<li>Worked with the private office of a <strong>UAE Royal family</strong> member during undergrad.</li>
+							<li>Played the <strong>CK Nayudu Trophy</strong>, one of India's premier cricket tournaments, representing a zone of over 3 million people.</li>
+							<li>Host of <strong><a href="https://instagram.com/rawconv" target="_blank" style="text-decoration: underline; color: black;">Raw Conversations</a></strong>, a podcast with 3M+ views across 5 episodes.</li>
+						</ul>
+					</div>
 				
 				</div>
 			</div>
 		</div>
 	</div>
-    </div>
 	<!-- /ABOUT -->
-	
-	
-			<!-- <div class="portfolio_inner">
-				<ul class="gallery_zoom">
-                    <li class="popupimage">
-						<div class="news-in">
-							<div class="image">
-								<img src="img/vg-2.jpg" alt="" />
-								<div class="main" data-img-url="img/sb2.webp"></div>
-								<a class="full_link zoom" href="img/sb2.webp"></a>
-							</div>
-						</div>
-					</li>
-					<li class="popupimage">
-						<div class="news-in">
-							<div class="image">
-								<img src="img/vg-2.jpg" alt="" />
-								<div class="main" data-img-url="img/sb2.webp"></div>
-								<a class="full_link zoom" href="img/sb2.webp"></a>
-							</div>
-						</div>
-					</li>
-                    <li class="popupimage">
-						<div class="news-in">
-							<div class="image">
-								<img src="img/vg-2.jpg" alt="" />
-								<div class="main" data-img-url="img/vg-2.jpg"></div>
-								<a class="full_link zoom" href="img/vg-2.jpg"></a>
-							</div>
-						</div>
-					</li>
-					<li class="popupimage">
-						<div class="news-in">
-							<div class="image">
-								<img src="img/vg-2.jpg" alt="" />
-								<div class="main" data-img-url="img/vg-2.jpg"></div>
-								<a class="full_link zoom" href="img/vg-2.jpg"></a>
-							</div>
-						</div>
-					</li>
-                    <li class="popupimage">
-						<div class="news-in">
-							<div class="image">
-								<img src="img/vg-2.jpg" alt="" />
-								<div class="main" data-img-url="img/vg-2.jpg"></div>
-								<a class="full_link zoom" href="img/vg-2.jpg"></a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div> -->
-
-
 	
 	<!-- CONTACT -->
 	<div class="contact" id="contact">
@@ -465,66 +385,30 @@
 											</a>
 										</li>
 										
-                                         <li>
+										<li>
 											<a href="https://www.instagram.com/shubhmx/">
 												<span class="first"><i class="xcon-instagram"></i></span>
 												<span class="second"><i class="xcon-instagram"></i></span>
-												</li>
-									</a>
+											</a>
+										</li>
 										<li>
 											<a href="https://in.linkedin.com/in/shubhamsr">
-												<span class="first"><i class="xcon-likedin"></i></span>
+												<span class="first"><i class="xcon-linkedin"></i></span>
 												<span class="second"><i class="xcon-linkedin"></i></span>
 											</a>
 										</li>
-									<!--	<li>
-											<a href="https://www.facebook.com/shubhmx">
-												<span class="first"><i class="xcon-facebook"></i></span>
-												<span class="second"><i class="xcon-facebook"></i></span>
-											</a>
-										</li> -->
 										
 									</ul>
 								</div>
 							</li>
 						</ul>
 					</div>
-					<!-- <div class="left wow fadeInLeft" data-wow-duration="0.8s">
-						<div class="fields">
-							<form action="/" method="post" class="contact_form" id="contact_form">
-								<div class="returnmessage" data-success="Your message has been received. We will contact you soon."></div>
-								<div class="first">
-									<ul>
-										<li>
-											<input id="name" type="text" placeholder="Name">
-										</li>
-										<li>
-											<input id="email" type="text" placeholder="Email">
-										</li>
-									</ul>
-								</div>
-								<div class="last">
-									<textarea id="message" placeholder="Message"></textarea>
-								</div>
-								<div class="btn" data-position="left">
-									<a id="send_message" href="#">
-										<span>Send Message</span>
-									</a>
-								</div>
-								
-								 If you want to change the mail address to yours, please open modal.php and go to line 4 --
-								
-							</form>
-						</div>
-					</div> -->
 	
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- /CONTACT -->
-	
-	
 	
 	<!-- CURSOR -->
 	<div class="mouse-cursor cursor-outer"></div>
@@ -534,10 +418,7 @@
 </div>
 <!-- / WRAPPER ALL -->
 <!-- SCRIPTS -->
-<script src="js/jquery.js"></script><script src="js/plugins.js"></script><script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&amp;callback=initMap">
-</script><script src="js/init.js"></script><!-- /SCRIPTS --></body></html>
-
-
+<script src="js/jquery.js"></script><script src="js/plugins.js"></script><script src="js/init.js"></script><!-- /SCRIPTS --></body></html>
 
 
 
