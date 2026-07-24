@@ -574,7 +574,7 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 /* margin-bottom: 193px; */
 	padding-top: 100px;
 /* padding-bottom: 120px; */
-	background-color: #fff; */
+	background-color: #fff; 
 }
 .about .about_inner{
 	width: 100%;
@@ -1227,7 +1227,7 @@ body.dark .topbar_single[data-skin="light"].animate .wrapper .trigger:after{back
 	justify-content: center;
 	top: 4px;
 }
-.copyright_contact.copyright_inner .social ul li{
+.copyright_contact .copyright_inner .social ul li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
